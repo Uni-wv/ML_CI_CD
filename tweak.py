@@ -34,7 +34,7 @@ accuracy = 0
 epochs = 1
 test = 1
 trigger = 0
-while int(accuracy) < 80 :
+while int(accuracy) < 90 :
 	if trigger == 1 :
 		model = keras.backend.clear_session()
 		neurons = neurons+10
